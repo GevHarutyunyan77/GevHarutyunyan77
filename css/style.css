@@ -1,0 +1,249 @@
+.header{
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  padding-top: 40px; 
+}
+
+body{
+  background-color: #f1f5f8;
+  box-sizing: border-box;
+}
+
+.h1{
+  font-size: 45px;
+}
+
+.nav{  
+  width: 592px;
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34px;
+}
+
+.ul{
+  display: flex;
+}
+.list{
+  user-select: none;
+  font-size: 18px; 
+  padding: 8px 16px;  
+  border: 2px solid #c59d5f;
+  list-style-type: none;
+  border-radius: 10px;
+  margin-right: 24px;
+  color: #c59d5f;
+}
+
+.active{
+  border: 2px solid #c59d5f;
+  background-color: #817b73;
+  color: white;
+}
+
+.list:hover{
+  background-color: #c7bbab;
+  cursor: pointer;
+}
+
+.hr{
+  width: 70px;
+  height: 5px;
+  background-color: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main{
+  
+  flex-wrap: wrap;
+  display: flex;
+  max-width: 1270px;  
+  margin: auto;
+  
+}
+
+
+.cont{
+  height: 180px;
+  width: 610px;
+  display: flex;
+  margin-bottom: 50px;
+  padding-right: 25px;
+
+}
+
+.imageDiv{  
+  height: 186px;
+  width: 185px;   
+}
+
+.image{
+  border-radius: 10px;
+  object-fit: cover;
+  width: 186px;
+  height: 176px;
+  border: 3px solid #c59d5f
+}
+
+.rigt_div{
+  height: 100%;
+  width: 400px;
+  margin-left: 20px;
+}
+
+.nameLine{
+  font-weight: 600;
+  width: 400px;
+  height: 28px; 
+  display: flex;
+  font-weight: 600;
+  border-bottom: 2px dotted;
+}
+
+#myh5{
+  color: #c59d5f;
+}
+
+.tittle{ 
+  height: 100%;
+  width: 340px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  
+}
+
+.price{
+  letter-spacing: 3px;
+ text-align: right;
+  color: #c59d5f;
+}
+
+.text{
+  
+  width: 370px;
+  height: 130px;
+  color: #617d98;
+  font-size: 18px;
+}
+
+
+.modal_image_div{
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border: 3px solid #c59d5f;
+  border-radius: 10px;
+}
+
+.myp{
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 270px;
+  height: 140px;  
+  color: #617d98;
+  font-size: 18px;
+}
+
+.dd{
+  display: flex;
+}
+
+.modalPrice{
+  height: 35px;
+  margin-left: 25px;
+  width: 265px;
+  border-bottom: 2px dotted black;
+  font-weight: 600;
+  color: #c59d5f;
+}
+
+.myShopDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  height: 36px; 
+}
+
+.itemCounter{
+  border: 1px solid black;
+  width: 36px;
+  height: 100%;  
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.itemCounter:hover{
+  background-color: #c7bbab;
+}
+
+.myCount{
+  border: 1px solid black;
+  width: 50px;
+  height: 100%;
+  background-color: #e0c59d;
+}
+
+.mySpan{
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 400;
+  user-select: none;
+}
+
+.mySpanPlus{
+  margin-bottom: 8px;
+  font-size: 40px;
+  font-weight: 400;
+  user-select: none;
+}
+
+.totalBought{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.myCount{  
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  user-select: none;
+}
+
+.success{   
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #c59d5f;
+  width: 130px;
+  height: 36px;
+  
+  visibility: hidden;
+}
+
+.full{
+  background-color: rgb(0, 255, 42);
+  color: black;
+  font-size: 18px;
+}
+
+.empty{
+  background-color: red;
+  color: white;
+}
+
+.modal-footer{
+  justify-content: space-between;
+}
+
+.btn{
+  width: 100px;
+}
+
+.closeSpan{
+  background-color: #e0c59d;
+}
